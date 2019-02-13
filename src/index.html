@@ -6,9 +6,42 @@
   </head>
   <body>
 
+<main class= "content">
     <responsive-child>
-      <!-- content goes here -->
+    <div class= "outmost">
+      <div class= "constrained">
+        <div data-flex= "1-3">
+        <Flipper flipKey={All}>          
+            <Flipped flipId="square">
+              <div className="small" /><img src="assets/photos/SeaNettle.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+            <Flipped flipId="square">
+              <div className="small" /><img src="assets/photos/Caprellids.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+            <Flipped flipId="square">
+              <div className="small" /><img src="assets/photos/Herring.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+            <Flipped flipId="seaNettle">
+              <div className="small" /><img src="assets/photos/Pompano.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+            <Flipped flipId="seaNettle">
+              <div className="small" /><img src="assets/photos/Pryosomes.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+            <Flipped flipId="seaNettle">
+              <div className="small" /><img src="assets/photos/Squid.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+            <Flipped flipId="seaNettle">
+              <div className="small" /><img src="assets/photos/Tunicat.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+            <Flipped flipId="seaNettle">
+              <div className="small" /><img src="assets/photos/Wolf_Eel.jpg" alt="Sea Nettle"></div>
+            </Flipped>
+        </Flipper>
+      </div>
+      <div class="caption">Photos: Steve Ringman / The Seattle Times</div>
+    </div>
     </responsive-child>
+  </main>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
