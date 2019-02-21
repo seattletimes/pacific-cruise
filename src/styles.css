@@ -127,13 +127,13 @@ padding-top: 10px;
   border: 1px solid rgb(126, 131, 139);
 }
 .square {
-  max-width: 310px;
+  max-width: 300px;
   cursor: pointer;
   justify-content: center;
 }
 
 .square image {
-  max-width: 310px;
+  max-width: 300px;
   cursor: pointer;
   justify-content: center;
 }
@@ -172,7 +172,7 @@ button {
 }
 
 .outmost {
-  max-width: 960px;
+  max-width: 950px;
   width: 100%;
   position: relative;
   margin: 20px 16px;
