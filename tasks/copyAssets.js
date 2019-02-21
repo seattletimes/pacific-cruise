@@ -13,6 +13,11 @@ module.exports = function(grunt) {
       if (!grunt.file.exists("build/assets")) shell.mkdir("-p", "build/assets");
       shell.cp("-r", "src/assets", "build");
     }
+
+    if (grunt.file.exists("src/static")) {
+      if (!grunt.file.exists("build/static")) shell.mkdir("-p", "build/static");
+      shell.cp("-r", "src/static", "build");
+    }
   });
 
 }
